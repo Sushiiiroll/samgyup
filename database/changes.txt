@@ -1,0 +1,35 @@
+changes
+- added category table
+#account
+ - usertype fields : admin, delivery_staff, store_staff
+#deliver_staff
+ - removed, merged with account table
+#inventory
+ - removed, merged with menu table
+#menu
+ - added stock, desccription, package, category fields
+#sales
+ - added order_category, either walkin or online
+ - added discounted
+
+#walkin order
+ -removed subtotal, not needed
+
+#addStaff
+ -addded staff type when adding new staff
+#manageMenu
+ -added package(yes,no), description, stock, category when adding new menu
+- added add category button
+ -status field automatic, if 0=unavailable else available
+#manageSales
+ -added more details about the sales
+#manageMenu
+ -removed action
+ -added click row to update or delete
+#updateMenu
+ -added description and stock
+ -added delte button
+#added notification bell
+ - click to go to notifications page
+#manageSales
+ - added add filter and generate pdf buttons
